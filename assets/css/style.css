@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lobster|PT+Serif|Raleway|Source+Sans+Pro');
+body{
+  background-image: url(../img/bosque.jpg);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      /*background-color: #464646;*/
+}
+header {
+    width: 15%;
+    /*position: absolute;*/
+    top: auto;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+header img{
+  width: 20%;
+  margin-top: 5%;
+}
+
+.content .progress-container .progress {
+    border-radius: 0;
+    box-shadow: none;
+    height: 5px;
+    background-color: #edecf0;
+}
+
+.content .progress-container .progress {
+    border-radius: 0;
+    box-shadow: none;
+    height: 5px;
+    background-color: #edecf0;
+}
+
+.progress {
+    overflow: hidden;
+    height: 20px;
+    /*margin-bottom: 20px;*/
+    background-color: #f5f5f5;
+    /*border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);*/
+}
+
+/*fondo de color de la clase letter*/
+.btn-dark .letter, .btn-huge .letter {
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 3px 8px 4px;
+    background-color: #4b4668;
+    color: #fff;
+    margin-right: 8px;
+    position: relative;
+    top: -4px;
+    border-radius: 3px;
+}
+
+.pregunta{
+font-family: 'Lobster', cursive;
+font-size: 1.5em;
+}
+/*botones*/
+.botones{
+  margin-top: 5%;
+}
+.botones button{
+  border: 2px solid #000 !important;
+  background-color: #e9e6fe;
+  margin-top: 10%;
+  width: 100%;
+}
+.botones button:hover{
+  background-color: #d0c9ff;
+}
+/*imagenes de redes sociales*/
+.imagenes img{
+  width: 30px;
+}
+.imagenes .row .col-img{
+  margin-top: 2%;
+}
