@@ -8,6 +8,9 @@ body{
       background-size: cover;
       /*background-color: #464646;*/
 }
+#root img{
+  height: 357px;
+}
 header {
     width: 15%;
     /*position: absolute;*/
@@ -15,10 +18,11 @@ header {
     top: 15%;
     left: 50%;
     transform: translateX(-50%);
+    margin-top: 2%;
 }
 header img{
-  width: 20%;
-  margin-top: 5%;
+  width: 25%;
+  margin-top: 1%;
 }
 
 .content .progress-container .progress {
@@ -68,14 +72,34 @@ font-size: 1.5em;
   margin-top: 5%;
 }
 .botones button{
-  border: 2px solid #000 !important;
-  background-color: #e9e6fe;
+  /*border: 2px solid #000 !important;*/
+  background-color: #d1fad2;
   margin-top: 10%;
   width: 100%;
 }
 .botones button:hover{
-  background-color: #d0c9ff;
+  background-color: #9fe077;
 }
+#final{
+  display: none;
+}
+.final-1{
+  background-color: #fff;
+  /*margin: 30px 100px 10px 100px;*/
+  font-size: 1.2em;
+  text-align: justify;
+  height: 100%;
+
+}
+.final-1 p{
+  font-family: 'Lobster', cursive;
+  font-size: 1.5em;
+  margin-top: 2%;
+}
+ul li{
+  list-style:none;
+}
+
 /*imagenes de redes sociales*/
 .imagenes img{
   width: 30px;
